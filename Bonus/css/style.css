@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ms_contenitore {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/piante.jpg);  
+    background-color: mistyrose;  
+}
+.ms_box {
+    position: relative;
+    height: 40vh;
+    background-color: rgba(75, 31, 77,0.7);
+    margin-top: 150px;
+    margin-left: 350px; 
+}
+.password {
+    position: absolute;
+    bottom: -20px;
+    right: -80px;
+    height: 150px;
+    background-color: oldlace;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid orange;
+    padding: 15px;
+}
+.ms_titolo {
+    position: absolute;
+    top: -80px;
+    left: -80px;
+    border: 2px solid rgb(75, 31, 77);
+    border-radius: 20px;
+    padding: 80px 90px;
+}
+#nome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: orange;
+}
+h2 {
+    text-align: center;
+    color: mistyrose;
+    font-size: 100px;
+    background-color: rgb(75, 31, 77);
+    border-radius: 20px;
+    padding: 15px;
+}
+h1 {
+    color: oldlace;
+}
+h4 {
+    line-height: 80px;
+}
+h6 {
+    padding-top: 10px;
+}
